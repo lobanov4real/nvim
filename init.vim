@@ -65,3 +65,7 @@ let g:CommandTPreferredImplementation='lua'
 " yuttie/comfortable-motion.vim
 let g:comfortable_motion_scroll_down_key = "j"
 let g:comfortable_motion_scroll_up_key = "k"
+
+set guicursor=n-v-c:hor30,i-ci-ve:ver35,r-cr:hor30,o:hor50
+	\,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor
+	\,sm:hor30
