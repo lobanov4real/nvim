@@ -20,6 +20,7 @@ Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'rbong/vim-flog'
 Plugin 'yuttie/comfortable-motion.vim'
 Plugin 'ryanoasis/vim-devicons'
+Plugin 'chase/vim-ansible-yaml'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
