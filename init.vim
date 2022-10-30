@@ -39,7 +39,7 @@ set nowrap
 set nobackup "no backup files
 set nowritebackup "only in case you don't want a backup file while editing
 set noswapfile "no swap files
-set clipboard=unnamed
+set clipboard+=unnamedplus
 set number
 set mouse=a
 set runtimepath+=~/.vim/after
