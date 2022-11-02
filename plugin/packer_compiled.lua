@@ -49,8 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "C:\\Users\\IVAN~1.LOB\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.0-beta3\\share\\lua\\5.1\\?.lua;C:\\Users\\IVAN~1.LOB\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.0-beta3\\share\\lua\\5.1\\?\\init.lua;C:\\Users\\IVAN~1.LOB\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.0-beta3\\lib\\luarocks\\rocks-5.1\\?.lua;C:\\Users\\IVAN~1.LOB\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.0-beta3\\lib\\luarocks\\rocks-5.1\\?\\init.lua"
-local install_cpath_pattern = "C:\\Users\\IVAN~1.LOB\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.0-beta3\\lib\\lua\\5.1\\?.so"
+local package_path_str = "C:\\Users\\Ivan\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.0-beta3\\share\\lua\\5.1\\?.lua;C:\\Users\\Ivan\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.0-beta3\\share\\lua\\5.1\\?\\init.lua;C:\\Users\\Ivan\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.0-beta3\\lib\\luarocks\\rocks-5.1\\?.lua;C:\\Users\\Ivan\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.0-beta3\\lib\\luarocks\\rocks-5.1\\?\\init.lua"
+local install_cpath_pattern = "C:\\Users\\Ivan\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.0-beta3\\lib\\lua\\5.1\\?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -76,32 +76,32 @@ time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
   ReplaceWithRegister = {
     loaded = true,
-    path = "C:\\Users\\ivan.lobanov\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\ReplaceWithRegister",
+    path = "C:\\Users\\Ivan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\ReplaceWithRegister",
     url = "https://github.com/vim-scripts/ReplaceWithRegister"
   },
   ["packer.nvim"] = {
     loaded = true,
-    path = "C:\\Users\\ivan.lobanov\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\packer.nvim",
+    path = "C:\\Users\\Ivan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
   ["vim-maximizer"] = {
     loaded = true,
-    path = "C:\\Users\\ivan.lobanov\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-maximizer",
+    path = "C:\\Users\\Ivan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-maximizer",
     url = "https://github.com/szw/vim-maximizer"
   },
   ["vim-nightfly-guicolors"] = {
     loaded = true,
-    path = "C:\\Users\\ivan.lobanov\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-nightfly-guicolors",
+    path = "C:\\Users\\Ivan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-nightfly-guicolors",
     url = "https://github.com/bluz71/vim-nightfly-guicolors"
   },
   ["vim-surround"] = {
     loaded = true,
-    path = "C:\\Users\\ivan.lobanov\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-surround",
+    path = "C:\\Users\\Ivan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-surround",
     url = "https://github.com/tpope/vim-surround"
   },
   ["vim-tmux-navigator"] = {
     loaded = true,
-    path = "C:\\Users\\ivan.lobanov\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-tmux-navigator",
+    path = "C:\\Users\\Ivan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-tmux-navigator",
     url = "https://github.com/christoomey/vim-tmux-navigator"
   }
 }
