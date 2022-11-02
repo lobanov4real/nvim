@@ -32,6 +32,10 @@ return packer.startup(function(use)
 
   use("szw/vim-maximizer")  -- maximazes and restore current window
 
+  -- essential plugins
+  use("tpope/vim-surround")
+  use("vim-scripts/ReplaceWithRegister")
+
 
 
 
