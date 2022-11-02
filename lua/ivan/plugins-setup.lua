@@ -28,7 +28,13 @@ return packer.startup(function(use)
 
   use("bluz71/vim-nightfly-guicolors") -- prefered colorscheme
 
+  use("christoomey/vim-tmux-navigator") -- tmux & split windows navigation
 
+  use("szw/vim-maximizer")  -- maximazes and restore current window
+
+  -- essential plugins
+  use("tpope/vim-surround")
+  use("vim-scripts/ReplaceWithRegister")
 
 
 
