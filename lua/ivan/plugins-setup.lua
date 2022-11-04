@@ -25,6 +25,9 @@ end
 
 return packer.startup(function(use)
   use("wbthomason/packer.nvim")
+  
+  -- lua functions that many plugins use
+  use("nvim-lua/plenary.nvim")
 
   use("bluz71/vim-nightfly-guicolors") -- prefered colorscheme
 
@@ -36,7 +39,17 @@ return packer.startup(function(use)
   use("tpope/vim-surround")
   use("vim-scripts/ReplaceWithRegister")
 
+  -- make comments with 'gcc'
+  use("numToStr/Comment.nvim")
 
+  -- file explorer
+  use("nvim-tree/nvim-tree.lua")
+
+  -- icons
+  use("kyazdani42/nvim-web-devicons")
+
+  -- statusline
+  use("nvim-lualine/lualine.nvim")
 
 
   if packer_bootstrap then
