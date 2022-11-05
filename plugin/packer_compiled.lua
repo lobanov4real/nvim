@@ -94,6 +94,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\Ivan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-buffer",
     url = "https://github.com/hrsh7th/cmp-buffer"
   },
+  ["cmp-nvim-lsp"] = {
+    loaded = true,
+    path = "C:\\Users\\Ivan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-nvim-lsp",
+    url = "https://github.com/hrsh7th/cmp-nvim-lsp"
+  },
   ["cmp-path"] = {
     loaded = true,
     path = "C:\\Users\\Ivan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-path",
@@ -109,6 +114,16 @@ _G.packer_plugins = {
     path = "C:\\Users\\Ivan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
   },
+  ["lspkind.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Ivan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lspkind.nvim",
+    url = "https://github.com/onsails/lspkind.nvim"
+  },
+  ["lspsaga.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Ivan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lspsaga.nvim",
+    url = "https://github.com/glepnir/lspsaga.nvim"
+  },
   ["lualine.nvim"] = {
     loaded = true,
     path = "C:\\Users\\Ivan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lualine.nvim",
@@ -119,10 +134,20 @@ _G.packer_plugins = {
     path = "C:\\Users\\Ivan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\mason-lspconfig.nvim",
     url = "https://github.com/williamboman/mason-lspconfig.nvim"
   },
+  ["mason-null-ls.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Ivan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\mason-null-ls.nvim",
+    url = "https://github.com/jayp0521/mason-null-ls.nvim"
+  },
   ["mason.nvim"] = {
     loaded = true,
     path = "C:\\Users\\Ivan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
+  },
+  ["null-ls.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Ivan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\null-ls.nvim",
+    url = "https://github.com/jose-elias-alvarez/null-ls.nvim"
   },
   ["nvim-cmp"] = {
     loaded = true,
@@ -163,6 +188,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Ivan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["typescript.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Ivan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\typescript.nvim",
+    url = "https://github.com/jose-elias-alvarez/typescript.nvim"
   },
   ["vim-maximizer"] = {
     loaded = true,
