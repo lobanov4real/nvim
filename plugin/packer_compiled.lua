@@ -194,6 +194,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\Ivan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\typescript.nvim",
     url = "https://github.com/jose-elias-alvarez/typescript.nvim"
   },
+  ["vim-log-highlighting"] = {
+    loaded = true,
+    path = "C:\\Users\\Ivan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-log-highlighting",
+    url = "https://github.com/mtdl9/vim-log-highlighting"
+  },
   ["vim-maximizer"] = {
     loaded = true,
     path = "C:\\Users\\Ivan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-maximizer",
