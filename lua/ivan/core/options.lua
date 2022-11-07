@@ -27,12 +27,17 @@ opt.signcolumn = "yes"
 
 -- backspace
 opt.backspace = "indent,eol,start"
- 
+
 -- clipboard
-opt.clipboard:append("unnamedplus")
+opt.clipboard:prepend({ "unnamed", "unnamedplus" })
 
 -- split windows
 opt.splitright = true
 opt.splitbelow = true
 
 opt.iskeyword:append("-")
+
+opt.fileencoding = "utf-8"
+opt.fileencoding = "cp1251"
+opt.fileencoding = "koi8-r"
+opt.encoding = "utf-8"
