@@ -82,6 +82,21 @@ return packer.startup(function(use)
 
 	use("mtdl9/vim-log-highlighting")
 
+	-- treesitter
+	use({
+		"nvim-treesitter/nvim-treesitter",
+		run = function()
+			require("nvim-treesitter.install").update({ with_sync = true })
+		end,
+	})
+
+	-- auto closing
+	use("windwp/nvim-autopairs")
+	use("windwp/nvim-ts-autotag")
+
+	-- git signs plugin
+	use("lewis6991/gitsigns.nvim")
+
 	if packer_bootstrap then
 		require("packer").sync()
 	end
