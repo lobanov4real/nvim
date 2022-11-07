@@ -38,6 +38,4 @@ opt.splitbelow = true
 opt.iskeyword:append("-")
 
 opt.fileencoding = "utf-8"
-opt.fileencoding = "cp1251"
-opt.fileencoding = "koi8-r"
 opt.encoding = "utf-8"
