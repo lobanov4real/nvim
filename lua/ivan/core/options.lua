@@ -36,8 +36,3 @@ opt.splitright = true
 opt.splitbelow = true
 
 opt.iskeyword:append("-")
-
--- opt.encoding = "utf-8,cp1251,cp866,koi8-r"
-opt.fileencoding = "cp1251"
-opt.fileencoding = "koi8-r"
-opt.fileencoding = "utf-8"
