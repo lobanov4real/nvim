@@ -36,9 +36,12 @@ opt.splitright = true
 opt.splitbelow = true
 
 opt.iskeyword:append("-")
+<<<<<<< HEAD
 
 opt.fileencoding = "utf-8"
 opt.encoding = "utf-8"
 
 opt.backup = false
 opt.swapfile = false
+=======
+>>>>>>> e33567b5445d3d28470a81eb7ffb4424280214a2
