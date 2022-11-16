@@ -39,3 +39,6 @@ opt.iskeyword:append("-")
 
 opt.fileencoding = "utf-8"
 opt.encoding = "utf-8"
+
+opt.backup = false
+opt.swapfile = false
