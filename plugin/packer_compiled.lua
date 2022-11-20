@@ -119,6 +119,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\Ivan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
   },
+  indentLine = {
+    loaded = true,
+    path = "C:\\Users\\Ivan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\indentLine",
+    url = "https://github.com/Yggdroot/indentLine"
+  },
   ["lspkind.nvim"] = {
     loaded = true,
     path = "C:\\Users\\Ivan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lspkind.nvim",
@@ -215,6 +220,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Ivan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\typescript.nvim",
     url = "https://github.com/jose-elias-alvarez/typescript.nvim"
+  },
+  ["vim-indent-guides"] = {
+    loaded = true,
+    path = "C:\\Users\\Ivan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-indent-guides",
+    url = "https://github.com/nathanaelkane/vim-indent-guides"
   },
   ["vim-log-highlighting"] = {
     loaded = true,

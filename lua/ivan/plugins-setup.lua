@@ -97,6 +97,9 @@ return packer.startup(function(use)
 	-- git signs plugin
 	use("lewis6991/gitsigns.nvim")
 
+	-- for visually displaying indent levels
+	use("nathanaelkane/vim-indent-guides")
+
 	if packer_bootstrap then
 		require("packer").sync()
 	end
