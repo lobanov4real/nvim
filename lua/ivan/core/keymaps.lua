@@ -33,7 +33,6 @@ keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")
 
 -- for visually displaying indent levels
 keymap.set("n", "<leader>s", ":IndentGuidesToggle<CR>")
-keymap.set("i", "<leader>s", ":IndentGuidesToggle<CR>")
 
 -- telecope
 keymap.set("n", "<leader>ff", "<cmd>Telescope find_files<cr>")
