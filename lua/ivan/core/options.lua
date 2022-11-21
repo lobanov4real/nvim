@@ -41,5 +41,5 @@ opt.backup = false
 opt.swapfile = false
 opt.writebackup = false
 
-opt.fileencoding = "utf-8"
+opt.fileencodings = "ucs-bom,utf-16le,utf-8,default,latin1,cp1251,koi8-r"
 opt.encoding = "utf-8"
