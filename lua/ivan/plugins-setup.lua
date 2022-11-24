@@ -56,7 +56,6 @@ return packer.startup(function(use)
 	use({ "nvim-telescope/telescope.nvim", branch = "0.1.x" })
 
 	-- autocompletion
-	use("hrsh7th/nvim-cmp")
 	use("hrsh7th/cmp-buffer")
 	use("hrsh7th/cmp-path")
 
@@ -79,20 +78,19 @@ return packer.startup(function(use)
 	-- formatting & linting
 	use("jose-elias-alvarez/null-ls.nvim")
 	use("jayp0521/mason-null-ls.nvim")
-
+	use("hrsh7th/nvim-cmp")
 	use("mtdl9/vim-log-highlighting")
 
 	-- treesitter
 	use({ "nvim-treesitter/nvim-treesitter", run = ":TSUpdate" })
-	-- use({
-	-- 	"nvim-treesitter/nvim-treesitter",
-	-- 	run = function()
-	-- 		require("nvim-treesitter.install").update({ with_sync = true })
-	-- 	end,
-	-- })
 
 	-- auto closing
-	use("windwp/nvim-autopairs")
+	use({
+		"windwp/nvim-autopairs",
+		config = function()
+			require("nvim-autopairs").setup({})
+		end,
+	})
 	use({ "windwp/nvim-ts-autotag", after = "nvim-treesitter" })
 
 	-- git signs plugin
