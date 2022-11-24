@@ -8,4 +8,5 @@ From youtube videos:
 - [How I Setup Neovim On My Mac To Make It Amazing - Complete Guide](https://www.youtube.com/watch?v=vdn_pKJUda8&t=1s)
 - [Set up Neovim on a new M2 MacBook Air for coding React, TypeScript, Tailwind CSS, etc.](https://www.youtube.com/watch?v=ajmK0ZNcM4Q&t=372s)
  
-## License: MIT  
+ 
+### License: MIT  
