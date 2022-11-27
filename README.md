@@ -1,6 +1,6 @@
 # NeoVim with lua
   
-## Introduction  
+## Description  
 I create two different configuration inspired by:
 - cool [youtube](https://www.youtube.com/@joseanmartinez) blogger [@Josean Martinez](https://github.com/josean-dev)  
 - creater of [Inkdrop](https://www.inkdrop.app/) and [youtube](https://www.youtube.com/@devaslife) blogger [@Takuya Matsuyama](https://github.com/craftzdog)  
