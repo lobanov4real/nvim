@@ -11,5 +11,14 @@ From youtube videos:
  
 ## Installation
   
- 
+***Windows:***  
+```  
+cd ~/AppData/local/
+git clone https://github.com/lobanov4real/nvim
+cd /lua/ivan/
+vim plugins-setup.lua
+:w
+:q
+``` 
+  
 ### License: MIT  
