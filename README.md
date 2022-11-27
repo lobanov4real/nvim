@@ -16,7 +16,7 @@ From youtube videos:
 cd ~/AppData/local/
 git clone https://github.com/lobanov4real/nvim
 cd /lua/ivan/
-vim plugins-setup.lua
+nvim plugins-setup.lua
 :w
 :q
 ``` 
@@ -26,7 +26,7 @@ vim plugins-setup.lua
 cd ~/.config/
 git clone https://github.com/lobanov4real/nvim
 cd /lua/ivan/
-vim plugins-setup.lua
+nvim plugins-setup.lua
 :w
 :q
 ```
