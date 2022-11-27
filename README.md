@@ -21,4 +21,14 @@ vim plugins-setup.lua
 :q
 ``` 
   
+***Linux***  
+```
+cd ~/.config/
+git clone https://github.com/lobanov4real/nvim
+cd /lua/ivan/
+vim plugins-setup.lua
+:w
+:q
+```
+  
 ### License: MIT  
