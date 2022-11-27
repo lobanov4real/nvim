@@ -6,7 +6,7 @@ I create two different configuration inspired by:
 - creater of [Inkdrop](https://www.inkdrop.app/) and amazing [youtube](https://www.youtube.com/@devaslife) blogger [@Takuya Matsuyama](https://github.com/craftzdog)  
   
 From youtube videos:  
-- [How I Setup Neovim On My Mac To Make It Amazing - Complete Guide](https://www.youtube.com/watch?v=vdn_pKJUda8&t=1s)  of Josean Martinez  
+- [How I Setup Neovim On My Mac To Make It Amazing - Complete Guide](https://www.youtube.com/watch?v=vdn_pKJUda8&t=1s) of Josean Martinez  
 - [Set up Neovim on a new M2 MacBook Air for coding React, TypeScript, Tailwind CSS, etc.](https://www.youtube.com/watch?v=ajmK0ZNcM4Q&t=372s) of Takuya Matsuyama  
  
 ## Installation
