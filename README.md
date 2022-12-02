@@ -1,4 +1,4 @@
-# NeoVim with lua
+# Neovim with lua
   
 ## Description  
 I create two different configuration inspired by:
