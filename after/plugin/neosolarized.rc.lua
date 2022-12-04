@@ -28,4 +28,3 @@ Group.new("DiagnosticUnderLineError", colors.none, colors.none, styles.undercurl
 Group.new("DiagnosticUnderlineWarn", colors.none, colors.none, styles.undercurl, cWarn)
 Group.new("DiagnosticUnderLineInfo", colors.none, colors.none, styles.undercurl, cInfo)
 Group.new("DiagnosticUnderLineHint", colors.none, colors.none, styles.undercurl, cHint)
-
