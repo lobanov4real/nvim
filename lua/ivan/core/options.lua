@@ -40,9 +40,6 @@ opt.iskeyword:append("-")
 opt.backup = false
 opt.swapfile = false
 opt.writebackup = false
-
-scriptencoding = "utf-8"
-opt.encoding = "utf-8"
-opt.fileencodings = "ucs-bom,utf-8,default,latin1,cp1251,unicode"
+opt.fileencodings = "cp1251,utf8"
 
 opt.fileformat = "dos"
