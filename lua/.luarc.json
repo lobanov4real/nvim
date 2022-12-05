@@ -1,0 +1,23 @@
+{
+    "$schema": "https://raw.githubusercontent.com/sumneko/vscode-lua/master/setting/schema.json",
+    "Lua.diagnostics.globals": [
+        "vim",
+        "ngx"
+    ],
+    "Lua.runtime.version": "LuaJIT",
+    "Lua.workspace.checkThirdParty": false,
+    "Lua.workspace.library": [
+        "C:\\Users\\Ivan\\AppData\\Local\\nvim",
+        "C:\\Users\\Ivan\\AppData\\Local\\nvim-data\\site",
+        "C:\\Users\\Ivan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\colorbuddy.nvim",
+        "C:\\Users\\Ivan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lualine.nvim",
+        "C:\\Users\\Ivan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\neosolarized.nvim",
+        "C:\\Users\\Ivan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-lspconfig",
+        "C:\\Users\\Ivan\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\packer.nvim",
+        "C:\\Users\\Ivan\\scoop\\apps\\neovim\\current\\share\\nvim\\runtime",
+        "C:\\Users\\Ivan\\scoop\\apps\\neovim\\current\\share\\nvim\\runtime\\pack\\dist\\opt\\matchit",
+        "C:\\Users\\Ivan\\scoop\\apps\\neovim\\current\\lib\\nvim",
+        "C:\\Users\\Ivan\\AppData\\Local\\nvim\\after",
+        "${3rd}/OpenResty/library"
+    ]
+}

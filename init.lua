@@ -1,17 +1,19 @@
-require("ivan.plugins-setup")
-require("ivan.core.options")
-require("ivan.core.keymaps")
-require("ivan.core.colorscheme")
-require("ivan.plugins.comment")
-require("ivan.plugins.nvim-tree")
-require("ivan.plugins.lualine")
-require("ivan.plugins.telescope")
-require("ivan.plugins.nvim-cmp")
-require("ivan.plugins.lsp.mason")
-require("ivan.plugins.lsp.lspsaga")
-require("ivan.plugins.lsp.lspconfig")
-require("ivan.plugins.lsp.null-ls")
-require("ivan.plugins.lualine")
-require("ivan.plugins.autopairs")
-require("ivan.plugins.treesitter")
-require("ivan.plugins.gitsigns")
+require('base')
+require('highlights')
+require('maps')
+require('plugins')
+
+local has = function(x)
+  return vim.fn.has(x) == 1
+end
+
+local is_mac = has "macunix"
+local is_win = has "win32"
+
+if is_mac then
+  require('macos')
+end
+
+if is_win then
+  require('windows')
+end
