@@ -1,4 +1,4 @@
-local status, packer = pcall(require, 'packer')
+local status, packer = pcall(require, "packer")
 if (not status) then
   print("Packer is not installed")
   return
@@ -12,6 +12,6 @@ packer.startup(function(use)
     'svrana/neosolarized.nvim',
     requires = { 'tjdevries/colorbuddy.nvim' }
   }
-  use 'kyazdani42/nvim-web-devicons' -- File icons
-  use 'hoob3rt/lualine.nvim' -- Statusline
+  use 'nvim-lualine/lualine.nvim' -- Statusline
+  use 'nvim-lua/plenary.nvim' -- Common utilities
 end)
