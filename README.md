@@ -1,7 +1,7 @@
 # Neovim with lua
   
 ## Description  
-I create two different configuration inspired by:
+I try to use two different configuration inspired by:
 - cool [youtube](https://www.youtube.com/@joseanmartinez) blogger [@Josean Martinez](https://github.com/josean-dev)  
 - creater of [Inkdrop](https://www.inkdrop.app/) and amazing [youtube](https://www.youtube.com/@devaslife) blogger [@Takuya Matsuyama](https://github.com/craftzdog)  
   
@@ -15,20 +15,25 @@ From youtube videos:
 ```  
 cd ~/AppData/local/
 git clone https://github.com/lobanov4real/nvim
+cd /nvim/
+git clone https://github.com/wbthomason/packer.nvim "$env:LOCALAPPDATA\nvim-data\site\pack\packer\start\packer.nvim"
 cd /lua/ivan/
-nvim plugins-setup.lua
-:w
-:q
+nvim plugins.lua
+:PackerInstall
+:wqa
 ``` 
   
 ***Linux***  
 ```
 cd ~/.config/
 git clone https://github.com/lobanov4real/nvim
-cd /lua/ivan/
-nvim plugins-setup.lua
-:w
-:q
+cd /nvim/
+git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+cd ~/.config/nvim/lua/ivan/
+nvim plugins.lua
+:PackerInstall
+:wqa
 ```
   
 ### License: MIT 
