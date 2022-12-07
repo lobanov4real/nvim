@@ -1,7 +1,7 @@
-require('base')
-require('highlights')
-require('maps')
-require('plugins')
+require('ivan.base')
+require('ivan.highlights')
+require('ivan.maps')
+require('ivan.plugins')
 
 local has = function(x)
   return vim.fn.has(x) == 1
@@ -11,9 +11,9 @@ local is_mac = has "macunix"
 local is_win = has "win32"
 
 if is_mac then
-  require('macos')
+  require('ivan.macos')
 end
 
 if is_win then
-  require('windows')
+  require('ivan.windows')
 end
