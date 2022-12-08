@@ -14,4 +14,6 @@ packer.startup(function(use)
   }
   use 'nvim-lualine/lualine.nvim' -- Statusline
   use 'nvim-lua/plenary.nvim' -- Common utilities
+  use 'mtdl9/vim-log-highlighting' -- log files highlighting
+  use 'Yggdroot/indentLine'
 end)
