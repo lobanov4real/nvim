@@ -17,7 +17,10 @@ packer.startup(function(use)
   use 'mtdl9/vim-log-highlighting' -- log files highlighting
   use 'Yggdroot/indentLine'
   use {
-    'nvim-treesitter/nvim-treesitter',
-    run = ':TSUpdate'
+        'nvim-treesitter/nvim-treesitter',
+        run = function()
+            local ts_update = require('nvim-treesitter.install').update({ with_sync = true })
+            ts_update()
+        end,
   }
 end)
