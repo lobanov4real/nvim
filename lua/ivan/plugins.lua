@@ -16,4 +16,8 @@ packer.startup(function(use)
   use 'nvim-lua/plenary.nvim' -- Common utilities
   use 'mtdl9/vim-log-highlighting' -- log files highlighting
   use 'Yggdroot/indentLine'
+  use {
+    'nvim-treesitter/nvim-treesitter',
+    run = ':TSUpdate'
+  }
 end)

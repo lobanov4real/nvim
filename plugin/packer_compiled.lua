@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\ivan.lobanov\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\colorbuddy.nvim",
     url = "https://github.com/tjdevries/colorbuddy.nvim"
   },
+  indentLine = {
+    loaded = true,
+    path = "C:\\Users\\ivan.lobanov\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\indentLine",
+    url = "https://github.com/Yggdroot/indentLine"
+  },
   ["lualine.nvim"] = {
     loaded = true,
     path = "C:\\Users\\ivan.lobanov\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lualine.nvim",
@@ -88,6 +93,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\ivan.lobanov\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\neosolarized.nvim",
     url = "https://github.com/svrana/neosolarized.nvim"
+  },
+  ["nvim-treesitter"] = {
+    loaded = true,
+    path = "C:\\Users\\ivan.lobanov\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-treesitter",
+    url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
   ["packer.nvim"] = {
     loaded = true,
