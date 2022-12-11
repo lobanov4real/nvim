@@ -14,7 +14,6 @@ packer.startup(function(use)
   }
   use 'nvim-lualine/lualine.nvim' -- Statusline
   use 'nvim-lua/plenary.nvim' -- Common utilities
-<<<<<<< HEAD
 
   use 'mtdl9/vim-log-highlighting' -- log files highlighting
   use 'Yggdroot/indentLine'
@@ -31,18 +30,11 @@ packer.startup(function(use)
 
   use {
     'nvim-treesitter/nvim-treesitter',
-    run = function() require('nvim-treesitter.install').update({ with_sync = true }) end,
+    run = function()
+      local ts_update = require('nvim-treesitter.install').update({ with_sync = true })
+      ts_update()
+    end,
   }
 
-=======
-  use 'mtdl9/vim-log-highlighting' -- log files highlighting
-  use 'Yggdroot/indentLine'
-  use {
-        'nvim-treesitter/nvim-treesitter',
-        run = function()
-            local ts_update = require('nvim-treesitter.install').update({ with_sync = true })
-            ts_update()
-        end,
-  }
->>>>>>> ef0414b45814cc26692f4a6dcf69d305f0c14c2f
+
 end)
