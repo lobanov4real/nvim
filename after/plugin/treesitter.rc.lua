@@ -20,6 +20,7 @@ ts.setup {
     "markdown",
     "python",
     "html",
+    "ruby",
     "lua"
   },
   autotag = {
