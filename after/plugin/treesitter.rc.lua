@@ -17,10 +17,10 @@ ts.setup {
     "yaml",
     "swift",
     "css",
-    "markdown",
     "python",
     "html",
     "ruby",
+    "markdown",
     "lua"
   },
   autotag = {
