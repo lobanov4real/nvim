@@ -12,22 +12,18 @@ packer.startup(function(use)
     'svrana/neosolarized.nvim',
     requires = { 'tjdevries/colorbuddy.nvim' }
   }
+  use 'kyazdani42/nvim-web-devicons' -- File icons
+  use 'glepnir/lspsaga.nvim' -- LSP UIs
   use 'nvim-lualine/lualine.nvim' -- Statusline
   use 'nvim-lua/plenary.nvim' -- Common utilities
-
   use 'mtdl9/vim-log-highlighting' -- log files highlighting
   use 'Yggdroot/indentLine'
-
-  use 'kyazdani42/nvim-web-devicons' -- File icons
-
   use({ "L3MON4D3/LuaSnip", tag = "v1.*" }) -- Snippets
-
   use 'onsails/lspkind-nvim' -- VSCode-like pictograms
   use 'hrsh7th/cmp-buffer' -- Nvim-cmp source for buffer words
   use 'hrsh7th/cmp-nvim-lsp' -- Nvim-cmp source for neovim's built-in LSP
   use 'hrsh7th/nvim-cmp' -- Completion
   use 'neovim/nvim-lspconfig' -- LSP
-
   use {
     'nvim-treesitter/nvim-treesitter',
     run = function()
