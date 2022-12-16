@@ -36,4 +36,14 @@ nvim plugins.lua
 :wqa
 ```
   
+### Global
+```
+which npm
+cd {which npm}
+npm install npm@latest
+npm install -g @tailwindcss/language-server
+npm install -g @fsouza/prettierd
+npm install -g neovim
+```
+
 ### License: MIT 
