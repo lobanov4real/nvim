@@ -121,11 +121,6 @@ nvim_lsp.dockerls.setup {
   on_attach = on_attach,
 }
 
-nvim_lsp.marksman.setup {
-  capabilities = capabilities,
-  on_attach = on_attach,
-}
-
 nvim_lsp.powershell_es.setup {
   capabilities = capabilities,
   on_attach = on_attach,
