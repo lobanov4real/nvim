@@ -47,4 +47,5 @@ packer.startup(function(use)
   use 'dinhhuy258/git.nvim' -- For git blame & browse
   use 'Yggdroot/indentLine'
   use 'mtdl9/vim-log-highlighting'
+  use 'numToStr/Comment.nvim'
 end)
