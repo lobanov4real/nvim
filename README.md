@@ -22,6 +22,7 @@ npm install npm@latest
 npm install -g typescript-language-server typescript
 npm install -g @tailwindcss/language-server
 npm install -g @fsouza/prettierd
+npm install -g eslint_d
 npm install -g neovim
 ```
 
