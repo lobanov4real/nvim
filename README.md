@@ -24,6 +24,7 @@ npm install -g @tailwindcss/language-server
 npm install -g @fsouza/prettierd
 npm install -g eslint_d
 npm install -g neovim
+python3 -m pip install --user --upgrade pynvim
 ```
 
 ***Windows:***  
