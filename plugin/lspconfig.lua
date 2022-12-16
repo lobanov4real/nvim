@@ -111,21 +111,6 @@ nvim_lsp.tailwindcss.setup {
   capabilities = capabilities
 }
 
-nvim_lsp.cssls.setup {
-  on_attach = on_attach,
-  capabilities = capabilities
-}
-
-nvim_lsp.dockerls.setup {
-  capabilities = capabilities,
-  on_attach = on_attach,
-}
-
-nvim_lsp.powershell_es.setup {
-  capabilities = capabilities,
-  on_attach = on_attach,
-}
-
 nvim_lsp.yamlls.setup {
   capabilities = capabilities,
   on_attach = on_attach,
@@ -134,6 +119,11 @@ nvim_lsp.yamlls.setup {
 nvim_lsp.astro.setup {
   on_attach = on_attach,
   capabilities = capabilities
+}
+
+nvim_lsp.html.setup {
+  capabilities = capabilities,
+  on_attach = on_attach,
 }
 
 vim.lsp.handlers["textDocument/publishDiagnostics"] = vim.lsp.with(
