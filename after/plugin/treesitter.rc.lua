@@ -15,7 +15,6 @@ ts.setup {
     "toml",
     "json",
     "yaml",
-    "swift",
     "css",
     "html",
     "lua"

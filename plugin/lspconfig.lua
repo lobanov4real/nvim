@@ -86,6 +86,11 @@ typescript.setup {
   },
 }
 
+nvim_lsp.cssls.setup {
+  on_attach = on_attach,
+  capabilities = capabilities
+}
+
 nvim_lsp.yamlls.setup {
   capabilities = capabilities,
   on_attach = on_attach,
