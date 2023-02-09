@@ -18,9 +18,7 @@ I got a lot of experience of using lua for Neovim and I am very grateful to thes
 ```
 which npm
 cd {which npm}
-npm install npm@latest
-npm install -g typescript-language-server typescript
-npm install -g @tailwindcss/language-server
+npm install npm@latest  
 npm install -g @fsouza/prettierd
 npm install -g eslint_d
 npm install -g neovim
