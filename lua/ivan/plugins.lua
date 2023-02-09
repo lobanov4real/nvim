@@ -9,8 +9,8 @@ vim.cmd [[packadd packer.nvim]]
 packer.startup(function(use)
   use 'wbthomason/packer.nvim'
   use {
-    'svrana/neosolarized.nvim',
-    requires = { 'tjdevries/colorbuddy.nvim' }
+      'svrana/neosolarized.nvim',
+      requires = { 'tjdevries/colorbuddy.nvim' }
   }
   use 'nvim-lualine/lualine.nvim' -- Statusline
   use 'nvim-lua/plenary.nvim' -- Common utilities
@@ -34,8 +34,10 @@ packer.startup(function(use)
   use 'windwp/nvim-autopairs'
   use 'windwp/nvim-ts-autotag'
 
-  use 'Yggdroot/indentLine'
+  -- use 'Yggdroot/indenLine'
+  use 'thaerkh/vim-indentguides'
 
+  --[[ use 'graywh/vim-colori' ]]
   use 'mtdl9/vim-log-highlighting' -- Log files colorizing
 
   use 'numToStr/Comment.nvim' -- Comment with gcc
@@ -43,11 +45,11 @@ packer.startup(function(use)
   use { 'akinsho/nvim-bufferline.lua', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons' } -- Tabs for Nvim
 
   use {
-    'nvim-treesitter/nvim-treesitter',
-    run = function()
-      local ts_update = require('nvim-treesitter.install').update({ with_sync = true })
-      ts_update()
-    end,
+      'nvim-treesitter/nvim-treesitter',
+      run = function()
+        local ts_update = require('nvim-treesitter.install').update({ with_sync = true })
+        ts_update()
+      end,
   }
   use 'norcalli/nvim-colorizer.lua'
 end)
