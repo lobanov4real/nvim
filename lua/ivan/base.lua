@@ -34,10 +34,16 @@ vim.opt.path:append { '**' } -- Finding files - Search down into subfolders
 
 -- Turn off paste mode when leaving insert
 vim.api.nvim_create_autocmd("InsertLeave", {
-    pattern = '*',
-    command = "set nopaste"
+  pattern = '*',
+  command = "set nopaste"
 })
 
+vim.conceallevel = 0
 
 -- Add asterisks in block comments
 vim.opt.formatoptions:append { 'r' }
+
+vim.opt.list = true
+vim.opt.listchars:append "space:⋅"
+-- vim.opt.listchars:append "eol:↴"
+vim.cmd [[highlight IndentBlanklineIndent guifg=#282828 gui=nocombine]]
