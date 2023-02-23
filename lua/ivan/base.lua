@@ -46,4 +46,4 @@ vim.opt.formatoptions:append { 'r' }
 vim.opt.list = true
 vim.opt.listchars:append "space:⋅"
 -- vim.opt.listchars:append "eol:↴"
-vim.cmd [[highlight IndentBlanklineIndent guifg=#282828 gui=nocombine]]
+vim.cmd [[highlight IndentBlanklineIndent guifg=#494949 gui=nocombine]]
