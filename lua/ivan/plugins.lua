@@ -35,7 +35,6 @@ packer.startup(function(use)
   use 'windwp/nvim-ts-autotag'
 
   -- use 'Yggdroot/indenLine'
-  -- use 'thaerkh/vim-indentguides'
   use 'lukas-reineke/indent-blankline.nvim'
 
   --[[ use 'graywh/vim-colori' ]]
