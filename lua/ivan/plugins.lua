@@ -35,7 +35,7 @@ packer.startup(function(use)
   use 'windwp/nvim-ts-autotag'
 
   -- use 'Yggdroot/indenLine'
-  use 'lukas-reineke/indent-blankline.nvim'
+  -- use 'lukas-reineke/indent-blankline.nvim'
 
   --[[ use 'graywh/vim-colori' ]]
   use 'mtdl9/vim-log-highlighting' -- Log files colorizing

@@ -99,6 +99,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\ivan.lobanov\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\colorbuddy.nvim",
     url = "https://github.com/tjdevries/colorbuddy.nvim"
   },
+  ["indent-blankline.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\ivan.lobanov\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\indent-blankline.nvim",
+    url = "https://github.com/lukas-reineke/indent-blankline.nvim"
+  },
   ["lspkind-nvim"] = {
     loaded = true,
     path = "C:\\Users\\ivan.lobanov\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lspkind-nvim",
@@ -198,15 +203,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\ivan.lobanov\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\typescript.nvim",
     url = "https://github.com/jose-elias-alvarez/typescript.nvim"
-  },
-  ["vim-indentguides"] = {
-    loaded = true,
-<<<<<<< HEAD
-    path = "C:\\Users\\ivan.lobanov\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-indentguides",
-=======
-    path = "C:\\Users\\xuser\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-indentguides",
->>>>>>> 4189c90bf02c24c0acf1ca7b77b52e2933da0715
-    url = "https://github.com/thaerkh/vim-indentguides"
   },
   ["vim-log-highlighting"] = {
     loaded = true,
