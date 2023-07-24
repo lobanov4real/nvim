@@ -201,7 +201,11 @@ _G.packer_plugins = {
   },
   ["vim-indentguides"] = {
     loaded = true,
+<<<<<<< HEAD
     path = "C:\\Users\\ivan.lobanov\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-indentguides",
+=======
+    path = "C:\\Users\\xuser\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-indentguides",
+>>>>>>> 4189c90bf02c24c0acf1ca7b77b52e2933da0715
     url = "https://github.com/thaerkh/vim-indentguides"
   },
   ["vim-log-highlighting"] = {

@@ -35,7 +35,7 @@ packer.startup(function(use)
   use 'windwp/nvim-ts-autotag'
 
   -- use 'Yggdroot/indenLine'
-  use 'thaerkh/vim-indentguides'
+  use 'lukas-reineke/indent-blankline.nvim'
 
   --[[ use 'graywh/vim-colori' ]]
   use 'mtdl9/vim-log-highlighting' -- Log files colorizing
@@ -47,10 +47,17 @@ packer.startup(function(use)
   use {
     'nvim-treesitter/nvim-treesitter',
     run = function()
+<<<<<<< HEAD
         local ts_update = require('nvim-treesitter.install').update({ with_sync = true })
         ts_update()
     end,
 }
 
+=======
+      local ts_update = require('nvim-treesitter.install').update({ with_sync = true })
+      ts_update()
+    end,
+  }
+>>>>>>> 4189c90bf02c24c0acf1ca7b77b52e2933da0715
   use 'norcalli/nvim-colorizer.lua'
 end)
