@@ -9,11 +9,11 @@ local is_win = has "win32"
 local is_wsl = has "wsl"
 
 if is_mac then
-  require('ivan.macos')
+	require('ivan.macos')
 end
 if is_win then
-  require('ivan.windows')
+	require('ivan.windows')
 end
 if is_wsl then
-  require('ivan.wsl')
+	require('ivan.wsl')
 end
