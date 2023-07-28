@@ -46,6 +46,7 @@ vim.opt.formatoptions:append { 'r' }
 vim.opt.list = true
 vim.opt.listchars:append "space:."
 vim.opt.listchars:append "trail:·"
+vim.opt.listchars:append "tab:--"
 -- vim.opt.listchars:append "eol:."
 -- vim.cmd ([[highlight NonText gui=italic guifg=lightgrey]])
 vim.cmd ([[highlight Whitespace guifg=#e8dfdf gui=nocombine]])
