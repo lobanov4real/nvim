@@ -19,7 +19,6 @@ ts.setup {
     "fish",
     "json",
     "yaml",
-    "swift",
     "css",
     "html",
     "lua"
