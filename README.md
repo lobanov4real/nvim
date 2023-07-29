@@ -49,5 +49,8 @@ nvim plugins.lua
 :PackerInstall
 :wqa
 ```
+## Screnshot
+![image](https://github.com/lobanov4real/nvim/assets/110660329/e65b7876-83b7-4f67-a102-3ee53f58e6c3)
   
-### License: MIT 
+## License
+MIT 
