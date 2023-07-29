@@ -29,9 +29,9 @@ python3 -m pip install --user --upgrade pynvim
 ```  
 cd ~/AppData/local/
 git clone https://github.com/lobanov4real/nvim
-cd /nvim/
+cd ./nvim/
 git clone https://github.com/wbthomason/packer.nvim "$env:LOCALAPPDATA\nvim-data\site\pack\packer\start\packer.nvim"
-cd /lua/ivan/
+cd ./lua/ivan/
 nvim plugins.lua
 :PackerInstall
 :wqa
