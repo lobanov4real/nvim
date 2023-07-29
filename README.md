@@ -1,5 +1,3 @@
-# Neovim with lua
-  
 ## Description  
 I try to use two different configuration inspired by:
 - cool [youtube](https://www.youtube.com/@joseanmartinez) blogger [@Josean Martinez](https://github.com/josean-dev)  
@@ -29,9 +27,9 @@ python3 -m pip install --user --upgrade pynvim
 ```  
 cd ~/AppData/local/
 git clone https://github.com/lobanov4real/nvim
-cd /nvim/
+cd ./nvim/
 git clone https://github.com/wbthomason/packer.nvim "$env:LOCALAPPDATA\nvim-data\site\pack\packer\start\packer.nvim"
-cd /lua/ivan/
+cd ./lua/ivan/
 nvim plugins.lua
 :PackerInstall
 :wqa
@@ -49,5 +47,8 @@ nvim plugins.lua
 :PackerInstall
 :wqa
 ```
+## Screnshot
+![image](https://github.com/lobanov4real/nvim/assets/110660329/e65b7876-83b7-4f67-a102-3ee53f58e6c3)
   
-### License: MIT 
+## License
+MIT 
