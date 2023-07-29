@@ -1,5 +1,3 @@
-# Neovim with lua
-  
 ## Description  
 I try to use two different configuration inspired by:
 - cool [youtube](https://www.youtube.com/@joseanmartinez) blogger [@Josean Martinez](https://github.com/josean-dev)  
