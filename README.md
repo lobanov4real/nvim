@@ -41,7 +41,7 @@ nvim plugins.lua
 ```
 cd ~/.config/
 git clone https://github.com/lobanov4real/nvim
-cd /nvim/
+cd ./nvim/
 git clone --depth 1 https://github.com/wbthomason/packer.nvim\
  ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 cd ~/.config/nvim/lua/ivan/
