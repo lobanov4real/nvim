@@ -15,9 +15,15 @@ local styles = cb.styles
 Color.new('white', '#ffffff')
 Color.new('black', '#000000')
 Group.new('Normal', colors.base1, colors.NONE, styles.NONE)
+<<<<<<< HEAD
 Group.new('CursorLine', colors.white, colors.lightgrey, styles.NONE, colors.base03)
 Group.new('CursorLineNr', colors.yellow, colors.grey, styles.NONE, colors.base1)
 Group.new('Visual', colors.none, colors.base02, styles.NONE)
+=======
+Group.new('CursorLine', colors.none, colors.lightyellow, styles.none, colors.none)
+Group.new('CursorLineNr', colors.yellow, colors.black, styles.NONE, colors.base1)
+Group.new('Visual', colors.none, colors.base01, styles.none)
+>>>>>>> a7cf832662d21427a4634cfe236a5014730dd293
 
 local cError = groups.Error.fg
 local cInfo = groups.Information.fg
