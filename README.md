@@ -15,7 +15,7 @@ I got a lot of experience of using lua for Neovim and I am very grateful to thes
 ## Installation
   
 ***Global***  
-```
+```bash
 which npm
 cd {which npm}
 npm install npm@latest  
@@ -26,7 +26,7 @@ python3 -m pip install --user --upgrade pynvim
 ```
 
 ***Windows:***  
-```  
+```powershell
 cd ~/AppData/local/
 git clone https://github.com/lobanov4real/nvim
 cd /nvim/
@@ -38,7 +38,7 @@ nvim plugins.lua
 ``` 
   
 ***Linux***  
-```
+```bash
 cd ~/.config/
 git clone https://github.com/lobanov4real/nvim
 cd ./nvim/
