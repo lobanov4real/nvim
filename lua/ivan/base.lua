@@ -43,9 +43,9 @@ vim.conceallevel = 0
 -- Add asterisks in block comments
 vim.opt.formatoptions:append { 'r' }
 
-vim.opt.list = true
+vim.opt.list = false
 vim.opt.listchars:append "space:."
-vim.opt.listchars:append "trail:·"
+-- vim.opt.listchars:append "trail:·"
 vim.opt.listchars:append "tab:--"
 -- vim.opt.listchars:append "eol:."
 -- vim.cmd ([[highlight NonText gui=italic guifg=lightgrey]])
