@@ -16,7 +16,7 @@ After used this two different configurations for Neovim - I created my own. I go
 
 ## Installation
 
-***Global***
+**Global**
 
 ```bash
 which npm
@@ -28,7 +28,7 @@ npm install -g neovim
 python3 -m pip install --user --upgrade pynvim
 ```
 
-***Windows:***
+**Windows:**
 
 ```powershell
 cd ~/AppData/local/
@@ -41,7 +41,7 @@ nvim plugins.lua
 :wqa
 ```
 
-***Linux***
+**Linux**
 
 ```bash
 cd ~/.config/
