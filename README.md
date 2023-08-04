@@ -1,20 +1,23 @@
-# Neovim with lua
-  
-## Description  
-I try to use two different configuration inspired by:
-- cool [youtube](https://www.youtube.com/@joseanmartinez) blogger [@Josean Martinez](https://github.com/josean-dev)  
-- creater of [Inkdrop](https://www.inkdrop.app/) and amazing [youtube](https://www.youtube.com/@devaslife) blogger [@Takuya Matsuyama](https://github.com/craftzdog)  
-  
-From youtube videos:  
-- [How I Setup Neovim On My Mac To Make It Amazing - Complete Guide](https://www.youtube.com/watch?v=vdn_pKJUda8&t=1s) of Josean Martinez  
-- [Set up Neovim on a new M2 MacBook Air for coding React, TypeScript, Tailwind CSS, etc.](https://www.youtube.com/watch?v=ajmK0ZNcM4Q&t=372s) of Takuya Matsuyama  
+# Setup and customize Neovim with lua
 
-After used this two different configurations for Neovim - I created my own.  
-I got a lot of experience of using lua for Neovim and I am very grateful to these persons: [@Josean Martinez](https://github.com/josean-dev) and [@Takuya Matsuyama](https://github.com/craftzdog)  
- 
+## Description
+
+I try to use two different configuration inspired by:
+
+- cool [youtube](https://www.youtube.com/@joseanmartinez) blogger [@Josean Martinez](https://github.com/josean-dev)
+- creater of [Inkdrop](https://www.inkdrop.app/) and amazing [youtube](https://www.youtube.com/@devaslife) blogger [@Takuya Matsuyama](https://github.com/craftzdog)
+
+From youtube videos:
+
+- [How I Setup Neovim On My Mac To Make It Amazing - Complete Guide](https://www.youtube.com/watch?v=vdn_pKJUda8&t=1s) of Josean Martinez
+- [Set up Neovim on a new M2 MacBook Air for coding React, TypeScript, Tailwind CSS, etc.](https://www.youtube.com/watch?v=ajmK0ZNcM4Q&t=372s) of Takuya Matsuyama
+
+After used this two different configurations for Neovim - I created my own. I got a lot of experience of using lua for Neovim and I am very grateful to these persons: [@Josean Martinez](https://github.com/josean-dev) and [@Takuya Matsuyama](https://github.com/craftzdog)  
+
 ## Installation
-  
-***Global***  
+
+***Global***
+
 ```bash
 which npm
 cd {which npm}
@@ -25,7 +28,8 @@ npm install -g neovim
 python3 -m pip install --user --upgrade pynvim
 ```
 
-***Windows:***  
+***Windows:***
+
 ```powershell
 cd ~/AppData/local/
 git clone https://github.com/lobanov4real/nvim
@@ -35,9 +39,10 @@ cd /lua/ivan/
 nvim plugins.lua
 :PackerInstall
 :wqa
-``` 
-  
-***Linux***  
+```
+
+***Linux***
+
 ```bash
 cd ~/.config/
 git clone https://github.com/lobanov4real/nvim
@@ -49,5 +54,7 @@ nvim plugins.lua
 :PackerInstall
 :wqa
 ```
-  
-### License: MIT 
+
+## License
+
+MIT
