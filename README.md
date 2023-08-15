@@ -18,6 +18,11 @@ After used this two different configurations for Neovim - I created my own. I go
 
 ![image](https://github.com/lobanov4real/nvim/assets/110660329/e65b7876-83b7-4f67-a102-3ee53f58e6c3)
 
+## Requirements
+
+- [GCC](https://gcc.gnu.org/)
+- [Node.js](https://nodejs.org/en)
+
 ## Installation
 
 ### Global
