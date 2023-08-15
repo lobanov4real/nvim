@@ -20,21 +20,28 @@ After used this two different configurations for Neovim - I created my own. I go
 
 ## Requirements
 
+- [Neovim](https://neovim.io/)
 - [GCC](https://gcc.gnu.org/)
-- [Node.js](https://nodejs.org/en)
+- [G++](https://linux.die.net/man/1/g++)
+- [Node.js](https://github.com/nodesource/distributions)
 
 ## Installation
 
 ### Global
 
+Neovim through [appimage](https://github.com/neovim/neovim/wiki/Installing-Neovim#appimage-universal-linux-package).
+
+GCC and GCC in Ubuntu:
+
 ```shell
-which npm
-cd {which npm}
-npm install npm@latest  
-npm install -g @fsouza/prettierd
-npm install -g eslint_d
-npm install -g neovim
-python3 -m pip install --user --upgrade pynvim
+sudo apt-get install gcc g++ -y
+```
+
+Node.js v18.x in Ubuntu:
+
+```shell
+curl -fsSL <https://deb.nodesource.com/setup_18.x> | sudo -E bash - &&\
+sudo apt-get install -y nodejs
 ```
 
 ### Windows
