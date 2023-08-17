@@ -33,7 +33,7 @@ After used this two different configurations for Neovim - I created my own. I go
 Neovim through [appimage](https://github.com/neovim/neovim/wiki/Installing-Neovim#appimage-universal-linux-package).
 
 ```shell
-curl -LO <https://github.com/neovim/neovim/releases/latest/download/nvim.appimage>
+curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
 chmod u+x nvim.appimage
 ./nvim.appimage
 ```
@@ -63,7 +63,7 @@ sudo apt-get install gcc g++ -y
 Node.js v18.x:
 
 ```shell
-curl -fsSL <https://deb.nodesource.com/setup_18.x> | sudo -E bash - &&\
+curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash - &&\
 sudo apt-get install -y nodejs
 ```
 
