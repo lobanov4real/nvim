@@ -20,6 +20,7 @@ After used this two different configurations for Neovim - I created my own. I go
 
 ## Requirements
 
+- [Git](https://git-scm.com/downloads)
 - [Neovim](https://neovim.io/)
 - [GCC](https://gcc.gnu.org/)
 - [G++](https://linux.die.net/man/1/g++)
