@@ -26,24 +26,26 @@ After used this two different configurations for Neovim - I created my own. I go
 - [G++](https://linux.die.net/man/1/g++)
 - [Node.js](https://github.com/nodesource/distributions)
 
-## Installation
+## Install requirements
 
-### Global
+### Ubuntu
 
 Neovim through [appimage](https://github.com/neovim/neovim/wiki/Installing-Neovim#appimage-universal-linux-package).
 
-GCC and GCC in Ubuntu:
+GCC and G++:
 
 ```shell
 sudo apt-get install gcc g++ -y
 ```
 
-Node.js v18.x in Ubuntu:
+Node.js v18.x:
 
 ```shell
 curl -fsSL <https://deb.nodesource.com/setup_18.x> | sudo -E bash - &&\
 sudo apt-get install -y nodejs
 ```
+
+## Installation
 
 ### Windows
 
