@@ -32,6 +32,28 @@ After used this two different configurations for Neovim - I created my own. I go
 
 Neovim through [appimage](https://github.com/neovim/neovim/wiki/Installing-Neovim#appimage-universal-linux-package).
 
+```shell
+curl -LO <https://github.com/neovim/neovim/releases/latest/download/nvim.appimage>
+chmod u+x nvim.appimage
+./nvim.appimage
+```
+
+```shell
+./nvim.appimage --appimage-extract
+```
+
+```shell
+./squashfs-root/AppRun --version
+```
+
+```shell
+# Optional: exposing nvim globally
+
+sudo mv squashfs-root /
+sudo ln -s /squashfs-root/AppRun /usr/bin/nvim
+nvim
+```
+
 GCC and G++:
 
 ```shell
