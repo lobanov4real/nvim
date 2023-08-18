@@ -14,7 +14,7 @@ From youtube videos:
 
 After used this two different configurations for Neovim - I created my own. I got a lot of experience of using lua for Neovim and I am very grateful to these persons: [@Josean Martinez](https://github.com/josean-dev) and [@Takuya Matsuyama](https://github.com/craftzdog)
 
-## Screnshot
+## Screenshot
 
 ![image](https://github.com/lobanov4real/nvim/assets/110660329/e65b7876-83b7-4f67-a102-3ee53f58e6c3)
 
