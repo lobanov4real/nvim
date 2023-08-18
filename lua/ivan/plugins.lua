@@ -40,10 +40,18 @@ packer.startup(function(use)
   -- use 'graywh/vim-colori'
   use 'mtdl9/vim-log-highlighting' -- Log files colorizing
 
-  use 'numToStr/Comment.nvim' -- Comment with gcc
+  use { 'numToStr/Comment.nvim', -- Comment with gcc
+    requires = {
+      'JoosepAlviste/nvim-ts-context-commentstring'
+    }
+  }
 
   use { 'akinsho/nvim-bufferline.lua', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons' } -- Tabs for Nvim
-
+  use 'folke/zen-mode.nvim'
+  use({
+    "iamcco/markdown-preview.nvim",
+    run = function() vim.fn["mkdp#util#install"]() end,
+  })
   use {
     'nvim-treesitter/nvim-treesitter',
     run = function()
