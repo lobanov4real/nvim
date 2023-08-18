@@ -82,6 +82,11 @@ cd ./nvim/
 git clone https://github.com/wbthomason/packer.nvim "$env:LOCALAPPDATA\nvim-data\site\pack\packer\start\packer.nvim"
 cd ./lua/ivan/
 nvim plugins.lua
+```
+
+Inside nvim:
+
+```vim
 :PackerInstall
 :wqa
 ```
