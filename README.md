@@ -1,4 +1,4 @@
-# Setup and customize Neovim with lua
+# Setup Neovim and customize it with Lua
 
 ## Description
 
