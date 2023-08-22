@@ -14,7 +14,7 @@ local styles = cb.styles
 
 Color.new('white', '#E6E6E6')
 Color.new('black', '#000000')
-Color.new('gray', '#BFBFBF')
+Color.new('gray', '#C2C2C2')
 Group.new('Normal',  colors.gray, colors.base.NONE, styles.NONE)
 Group.new('CursorLine', colors.none, colors.base01, styles.NONE, colors.base3)
 Group.new('CursorLineNr', colors.yellow, colors.black, styles.NONE, colors.base1)
