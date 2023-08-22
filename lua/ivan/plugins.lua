@@ -12,4 +12,8 @@ packer.startup(function(use)
     'svrana/neosolarized.nvim',
     requires = { 'tjdevries/colorbuddy.nvim' }
   }
+  use {
+  'nvim-lualine/lualine.nvim', -- Statusline
+  requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+  }  
 end)
