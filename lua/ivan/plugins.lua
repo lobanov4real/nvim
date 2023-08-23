@@ -16,4 +16,8 @@ packer.startup(function(use)
   'nvim-lualine/lualine.nvim', -- Statusline
   requires = { 'nvim-tree/nvim-web-devicons', opt = true }
   }  
+  use 'nvim-lua/plenary.nvim' -- Common utilities
+  use 'onsails/lspkind-nvim' -- vscode-like pictograms
+  use 'neovim/nvim-lspconfig' -- LSP
+  use 'hrsh7th/nvim-cmp' -- Completion
 end)
