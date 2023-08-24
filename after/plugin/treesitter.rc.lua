@@ -12,6 +12,11 @@ ts.setup {
   },
   ensure_installed = {
     "markdown",
+    "bash",
+    "comment",
+    "dockerfile",
+    "ini",
+    "xml",
     "markdown_inline",
     "tsx",
     "typescript",
