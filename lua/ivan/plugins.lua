@@ -15,4 +15,9 @@ packer.startup(function(use)
   }
   use 'nvim-lualine/lualine.nvim' -- Statusline
 
+  use {
+    'nvim-treesitter/nvim-treesitter',
+    run = function() require('nvim-treesitter.install').update({ with_sync = true }) end,
+  }
+
 end)
