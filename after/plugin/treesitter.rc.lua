@@ -13,15 +13,18 @@ ts.setup {
   ensure_installed = {
     "markdown",
     "markdown_inline",
-    "tsx",
-    "typescript",
     "toml",
     "fish",
     "json",
     "yaml",
     "css",
     "html",
-    "lua"
+    "bash",
+    "lua",
+    "javascript",
+    "vim",
+    "dockerfile",
+    "gitignore",
   },
   autotag = {
     enable = true,
@@ -29,7 +32,9 @@ ts.setup {
   context_commentstring = {
     enable         = true,
     enable_autocmd = false,
-  }
+  },
+  -- auto install above language parsers
+  auto_install = true,
 }
 
 local parser_config = require "nvim-treesitter.parsers".get_parser_configs()
