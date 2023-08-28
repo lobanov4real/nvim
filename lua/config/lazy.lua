@@ -13,6 +13,7 @@ vim.opt.rtp:prepend(lazypath)
 
 require("config.options")
 require("config.highlights")
+require("config.maps")
 
 require("lazy").setup({
   spec = {
