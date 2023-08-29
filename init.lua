@@ -1,7 +1,7 @@
 require("config.highlights")
-require("config.lazy")
 require("config.options")
 require("config.maps")
+require("config.lazy")
 
 local has = vim.fn.has
 local is_mac = has("macunix")
