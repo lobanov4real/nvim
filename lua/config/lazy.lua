@@ -11,10 +11,6 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
-require("config.options")
-require("config.highlights")
-require("config.maps")
-
 require("lazy").setup({
 	spec = {
 		-- add LazyVim and import its plugins
@@ -89,6 +85,10 @@ require("lazy").setup({
 		"zipPlugin",
 	},
 })
+
+require("config.options")
+require("config.highlights")
+require("config.maps")
 
 local has = vim.fn.has
 local is_mac = has("macunix")
