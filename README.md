@@ -16,7 +16,7 @@ After used this two different configurations for Neovim - I created my own. I go
 
 ## Screenshot
 
-![image](https://github.com/lobanov4real/nvim/assets/110660329/6d49cc08-36a8-4014-8ef9-ecfd105fa03b)
+![image](https://github.com/lobanov4real/nvim/assets/110660329/16e0eeda-1802-4a39-8933-cf71b6876a5c)
 
 ## Requirements
 
