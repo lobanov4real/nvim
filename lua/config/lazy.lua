@@ -78,6 +78,16 @@ require("lazy").setup({
 		},
 	},
 	checker = { enabled = false }, -- automatically check for plugin updates
+	disabled_plugins = {
+		"gzip",
+		-- "matchit",
+		-- "matchparen",
+		-- "netrwPlugin",
+		"tarPlugin",
+		"tohtml",
+		"tutor",
+		"zipPlugin",
+	},
 })
 
 local has = vim.fn.has
