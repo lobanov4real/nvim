@@ -2,6 +2,8 @@ return {
 	"nvim-telescope/telescope.nvim",
 	dependencies = {
 		"nvim-telescope/telescope-file-browser.nvim",
+		-- "nvim-lua/plenary.nvim",
+		-- "nvim-tree/nvim-web-devicons",
 	},
 	config = function()
 		local telescope = require("telescope")
@@ -25,6 +27,7 @@ return {
 			extensions = {
 				file_browser = {
 					theme = "dropdown",
+					display_stat = { date = false, size = true, mode = false },
 					-- disables netrw and use telescope-file-browser in its place
 					hijack_netrw = true,
 					mappings = {
