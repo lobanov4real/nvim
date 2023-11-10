@@ -2,6 +2,8 @@
 
 ## Description
 
+> Move to Lazy.nvim
+
 I try to use two different configuration inspired by:
 
 - [youtube](https://www.youtube.com/@joseanmartinez) blogger [@Josean Martinez](https://github.com/josean-dev)
