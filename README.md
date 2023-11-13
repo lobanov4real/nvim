@@ -1,8 +1,12 @@
 # Setup Neovim and customize it with Lua
 
-## Description
+___
 
-> Move to Lazy.nvim
+## Move to Lazy.nvim
+
+___
+
+## Description
 
 I try to use two different configuration inspired by:
 
