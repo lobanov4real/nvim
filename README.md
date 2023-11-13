@@ -1,10 +1,6 @@
 # Setup Neovim and customize it with Lua
 
-___
-
 ## Move to Lazy.nvim
-
-___
 
 ## Description
 
